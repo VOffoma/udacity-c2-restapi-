@@ -13,5 +13,6 @@ export const config = {
   },
   "jwt": {
     "secret":process.env.JWT_SECRET
-  }
+  }, 
+  "image_service_host": process.env.IMAGE_SERVICE_HOST
 }
